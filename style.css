@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#buscar {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+#resultado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pais {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.pais img {
+  width: 100%;
+  height: auto;
+}
